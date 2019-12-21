@@ -9,15 +9,19 @@
 <body>
   <div class="page-container">
     <h1> Cadastro - Jaracode </h1>
-    <p>Usuário</p>
-    <input class="username-input" type="text" placeholder="Insira o nome de usuário">
-  </div>
-  <div>
-    <p>Senha</p>
-    <input class="pswd-input" type="text" placeholder="Insira a senha">
-  </div>
-  <div>
-    <button class="signup-bttn" type="button" name="button">Cadastrar!</button>
+    <form class="signup" action="index.html" method="post">
+      <div>
+        <label for="username">Usuário</label>
+        <input class="username-input" type="text" placeholder="Insira o nome de usuário">
+      </div>
+      <div>
+        <label for="pswd">Senha</label>
+        <input class="pswd-input" type="text" placeholder="Insira a senha">
+      </div>
+      <div>
+        <button class="signup-bttn" type="button" name="button">Cadastrar!</button>
+      </div>
+    </form>
   </div>
 </body>
 
