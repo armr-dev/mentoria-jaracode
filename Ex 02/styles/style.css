@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Oswald;
+}
+
+body {
+  background-color: #E4E4E4;
+}
+
+.card-mix {
+  background-color: #202020;
+  width: 294px;
+  height: 294px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.spotify-logo img {
+  width: 20px;
+  margin: 5px 0 0 5px;
+}
+
+.title-div {
+  width: 100%;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-div label {
+  color: white;
+  font-weight: bold;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.title-div span {
+  color: red;
+}
+
+.card-img img {
+  width: 100%;
+}
